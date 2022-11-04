@@ -158,4 +158,14 @@ fig, ax = plt.subplots(figsize=(5,10))
 sns.countplot(ax=ax,y='Credit_Score', data=df,palette='crest')
 st.pyplot(fig)
 
-
+st.markdown(
+    """
+<style>
+.sidebar .sidebar-content {
+    background-image: linear-gradient(#2e7bcf,#2e7bcf);
+    color: white;
+}
+</style>
+""",
+    unsafe_allow_html=True,
+)
