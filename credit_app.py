@@ -68,7 +68,7 @@ fig3, ax3 = plt.subplots(figsize=(10,5))
 df.Annual_Income.hist(ax=ax3,bins=500,color='#696969')
 st.pyplot(fig3)
 st.markdown(
-    "75% people have annual income below {} dollars,and the mean value is {} dollars.".format(
+    "75% people have annual income below {:.2f} dollars,and the mean value is {:.2f} dollars.".format(
     df.Annual_Income.quantile(0.75),df.Annual_Income.mean()
     )
     )
