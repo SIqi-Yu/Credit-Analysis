@@ -17,4 +17,5 @@ from Team 28
 
 
 ## Prediction(Machine Learning):
-Banks can predict with high accuracy whether or not one person is trustworthy with this model. Consequently, they can increase revenue and avoid potential losses.
+ - Above all, finance institutions suffer a big risk when deciding to lend loans to customers or not, as we mentioned before, large proportion of people incline to borrow large amount of money. It is essential to construct a system that can provide help and make efficient decisions. We try to solve this problem by using machine learning. The get_dummies method in pandas is used to perform One-Hot coding for categorial statistics. Also SMOTE method to slove the imbalanced class problem. And we use stacking classifier to predict the ciredit score. The final accuracy rate of our model is more than 0.87, which is considerably precise.
+ - Banks can predict with high accuracy whether or not one person is trustworthy with this model. Consequently, they can increase revenue and avoid potential losses.
