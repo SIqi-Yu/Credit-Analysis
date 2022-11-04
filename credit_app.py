@@ -120,6 +120,7 @@ plt.xticks(rotation=45)
 plt.ylabel('proportion')
 ax2.tick_params(labelcolor='Grey')
 st.pyplot(fig2)
+st.markdown("People with high credit score usually do not choose to pay the minimum amount on each repayment date.\nPeople with low credit score tend to pay only the minimum amount on each repayment date.")
 st.markdown("")
 
 # scatter
@@ -129,9 +130,17 @@ fig4, ax4 = plt.subplots(figsize=(10,5))
 sns.scatterplot(data=df,ax=ax4,x = 'Age',y = 'Outstanding_Debt',palette="ch:r=-.2,d=.3_r",hue='Occupation', edgecolor=".7")
 #df.plot.scatter(ax=ax4,x = 'Age',y = 'Outstanding_Debt') # make explaination about sudden drop
 st.pyplot(fig4)
+st.markdown("The sudden drop may be caused by the law limitation of upper bound of taking loans")
+st.markdown("")
 
 
-# filter
+#######################
+# filter###############
+#######################
+#######################
+st.sidebar.text('')
+st.sidebar.text('')
+st.sidebar.text('')
 st.sidebar.markdown("**First select the data range you want to analyze:** 👇")
 st.header('Histogram of the Annual Income')
 income_filter = st.sidebar.slider('choose income:', 7005.93, 179987.28, 10000.00)  # min, max, default 滑块
