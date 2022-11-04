@@ -59,6 +59,7 @@ ax.set_xlabel('Outstanding Debt',color='peachpuff')
 ax.tick_params(labelcolor='tab:orange')
 st.pyplot(fig)
 
+st.markdown("People tend to borrow large loans.If credit scores are not evaluated, unpredictable losses will be caused to financial institutions""")
 
 
 st.header('Annual Income')
@@ -71,6 +72,7 @@ st.markdown(
     df.Annual_Income.quantile(0.75),df.Annual_Income.mean()
     )
     )
+st.markdown("")
 
 
 ###########################
@@ -104,6 +106,7 @@ plt.title('Transaction according to age groups')
 sns.barplot(data=age_groups, x='Age_range', y='Total_persons', palette='twilight_r')
 sns.pointplot(data=age_groups, x='Age_range', y='Total_persons', color=(.18, .31, .31))
 st.pyplot(fig1)
+st.markdown("")
 
 #####################################
 #installment amount and credit score#
@@ -117,6 +120,7 @@ plt.xticks(rotation=45)
 plt.ylabel('proportion')
 ax2.tick_params(labelcolor='Grey')
 st.pyplot(fig2)
+st.markdown("")
 
 # scatter
 #Outstanding_Debt: Represents the remaining debt to be paid (in USD)
