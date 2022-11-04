@@ -66,7 +66,7 @@ fig3, ax3 = plt.subplots(figsize=(10,5))
 #sns.countplot(df,x='Annual_Income')
 df.Annual_Income.hist(ax=ax3,bins=500,color='darkgreen')
 st.pyplot(fig3)
-st.markdown(f"75% people have annual income below ${df.Annual_Income.quantile(0.75):.2%},and the mean value is ${df.Annual_Income.mean()}")
+st.markdown(f'75% people have annual income below ${df.Annual_Income.quantile(0.75):.2%},and the mean value is ${df.Annual_Income.mean():.2%}')
 
 
 ###########################
