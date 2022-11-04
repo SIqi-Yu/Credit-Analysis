@@ -152,7 +152,7 @@ Payment_Behaviour_filter = st.sidebar.multiselect(
 df = df[df.Payment_Behaviour.isin(Payment_Behaviour_filter)]
 
 
-fig, ax = plt.subplots(figsize=(10,10))
+fig, ax = plt.subplots(figsize=(5,10))
 #df.Credit_Score.hist(xlabelsize=25,ylabelsize=25)
 #ax = sns.countplot(y='Credit_Score', data=df, color = "#b80606")
 sns.countplot(ax=ax,y='Credit_Score', data=df,palette='crest')
