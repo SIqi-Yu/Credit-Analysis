@@ -26,7 +26,7 @@ with st.expander("ℹ️ - About this app", expanded=True):
         """     
 -    Over the years, the company has collected basic bank details and gathered a lot of credit-related information. The management wants to build an intelligent system to segregate the people into credit score brackets to reduce the manual efforts.
 -   🤗It took 00 and Lucy more than two weeks to finish analysis and prediction, it's a complicated dataset that worth digging!!!
--   The Machine Learning part can be find on github: credit_predict.ipynb()
+-   The Machine Learning part can be find on github: credit_predict.ipynb(https://github.com/SIqi-Yu/Credit-Analysis/blob/main/credit_predict.ipynb)
 -   You can find the source code in the [Credit Score Classification Clean Data](https://www.kaggle.com/datasets/clkmuhammed/creditscoreclassification)
 	    """
     )
